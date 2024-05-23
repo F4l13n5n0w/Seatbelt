@@ -9,9 +9,6 @@ trigger:
 pool:
   vmImage: 'windows-latest'
 
-variables:
-- group: Authentication
-- group:  BuildVariablesGroup
 
 steps:
 - task: NuGetToolInstaller@1
